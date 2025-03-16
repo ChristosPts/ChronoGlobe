@@ -1,0 +1,51 @@
+.event-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(18, 13, 59, 0.9);
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(1, 0, 41, 0.5);
+  z-index: 1000;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  overflow-y: auto;
+  backdrop-filter: blur(8px);
+}
+  
+.event-modal h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.event-modal p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+.event-modal .close-button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 24px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.event-modal .close-button:hover {
+  background: #0056b3;
+}
