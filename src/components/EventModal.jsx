@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useGlobe } from "../context/GlobeContext";
-import "../css/modal.css";  
+import "../css/modal.css";
 
 const EventModal = ({ setIsModalOpen }) => {
   const { selectedEvent, setSelectedEvent, setIsSpinning } = useGlobe();
@@ -16,8 +16,7 @@ const EventModal = ({ setIsModalOpen }) => {
   return (
     <div className="modal-overlay" onClick={handleClose}>
       <div className="modal-content event-modal" onClick={(e) => e.stopPropagation()}>
-        
-        {/* Event image at the top */}
+
         {selectedEvent.image && (
           <div className="modal-image-container">
             <img
@@ -36,7 +35,9 @@ const EventModal = ({ setIsModalOpen }) => {
             })}
           </p>
           <p className="event-modal-description">{selectedEvent.description}</p>
-          <div><a className="event-modal-link" href={selectedEvent.link}>Learn More ❯</a></div>
+          <a className="event-modal-link" href={selectedEvent.link} target="_blank" rel="noopener noreferrer">
+            Learn More ❯
+          </a>
         </div>
 
         <button className="modal-close" onClick={handleClose}>✕</button>

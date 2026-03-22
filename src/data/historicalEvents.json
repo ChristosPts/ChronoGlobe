@@ -4,7 +4,7 @@
     "title": "Soviet Luna 15 Launched",
     "description": "In a last-ditch effort to upstage the United States in the Space Race, the Soviet Union secretly launched the robotic Luna 15 probe on July 13, 1969 — just three days before Apollo 11 lifted off. Luna 15's mission was to land on the Moon, scoop up soil samples, and return them to Earth before American astronauts could. It circled the Moon 52 times but ultimately crashed into the lunar surface on July 21, 1969, just hours before Neil Armstrong and Buzz Aldrin departed. The failure marked a decisive end to Soviet ambitions for a crewed Moon landing.",
     "date": "1969-07-13",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/The_Soviet_Union_1970_CPA_3951_stamp_%28Luna_16_in_Flight_%281970.09.12%29%29.jpg/330px-The_Soviet_Union_1970_CPA_3951_stamp_%28Luna_16_in_Flight_%281970.09.12%29%29.jpg",
     "lat": 45.6,
     "lon": 63.3,
     "link": "https://en.wikipedia.org/wiki/Luna_15"
@@ -14,7 +14,7 @@
     "title": "Apollo 11 Moon Landing",
     "description": "On July 20, 1969, humanity achieved one of its most defining moments when Apollo 11's lunar module Eagle touched down in the Sea of Tranquility. Commander Neil Armstrong became the first human to set foot on another world, uttering his famous words about 'one small step.' Buzz Aldrin joined him shortly after, and together they spent over two hours on the surface, planting the American flag, collecting 21.5 kg of lunar rock, and conducting experiments. Michael Collins orbited above in the command module. The mission fulfilled President Kennedy's 1961 pledge and remains a landmark of 20th-century civilization.",
     "date": "1969-07-20",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/330px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg",
     "lat": 28.5,
     "lon": -80.6,
     "link": "https://en.wikipedia.org/wiki/Apollo_11"
@@ -24,7 +24,7 @@
     "title": "South African Mine Workers Strike",
     "description": "In January 1969, tens of thousands of Black South African mineworkers launched widespread strikes against the brutal labor conditions enforced under the apartheid system. Workers in the gold and coal sectors — the backbone of South Africa's economy — protested against poverty wages, dangerous working conditions, racial discrimination, and the migrant labor system that separated families for months at a time. The strikes were swiftly suppressed by authorities, with many workers arrested or dismissed, but they intensified international scrutiny of apartheid and fueled the growing anti-apartheid movement both domestically and abroad.",
     "date": "1969-01-15",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Durban_Sign_1989_%283x4_cropped%29.jpg/250px-Durban_Sign_1989_%283x4_cropped%29.jpg",
     "lat": -26.2,
     "lon": 28.0,
     "link": "https://en.wikipedia.org/wiki/History_of_South_Africa_(1961–1994)"
@@ -34,47 +34,47 @@
     "title": "Concorde First Flight",
     "description": "On March 2, 1969, the Anglo-French supersonic passenger jet Concorde completed its maiden test flight from Toulouse, France, lasting just 27 minutes. The aircraft was the result of a decade-long collaboration between British and French aerospace engineers and represented a quantum leap in commercial aviation: capable of flying at Mach 2 (twice the speed of sound) at altitudes over 18,000 meters, it could cross the Atlantic in roughly three and a half hours. While a triumph of engineering, Concorde's development was plagued by enormous costs and environmental concerns over sonic booms, limiting its commercial adoption and ultimately foreshadowing its retirement in 2003.",
     "date": "1969-03-02",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg",
     "lat": 49.0,
     "lon": 2.5,
     "link": "https://en.wikipedia.org/wiki/Concorde"
   },
-  {
+   {
     "id": 5,
-    "title": "Cuyahoga River Fire",
-    "description": "On June 22, 1969, the heavily polluted Cuyahoga River running through Cleveland, Ohio, caught fire — not for the first time, but dramatically enough to ignite national outrage. Decades of industrial dumping had turned stretches of the river into a toxic slick of oil, chemicals, and debris. The 1969 fire lasted only about 20 minutes, but photographs and media coverage shocked the American public and became a galvanizing symbol of the environmental crisis facing the country. The event directly influenced the passage of the Clean Water Act (1972) and the creation of the Environmental Protection Agency (1970), fundamentally reshaping U.S. environmental policy.",
-    "date": "1969-06-22",
-    "image": "/images/event-icon.png",
-    "lat": 41.5,
-    "lon": -81.7,
-    "link": "https://en.wikipedia.org/wiki/Cuyahoga_River_fire"
+    "title": "IBM CICS Released",
+    "description": "IBM makes Customer Information Control System (CICS) available, a major transaction processing system that becomes widely used in enterprise computing.",
+    "date": "1969-01-01",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/IBM_CICS_Transaction_Server_for_z-OS_app_icon.svg/960px-IBM_CICS_Transaction_Server_for_z-OS_app_icon.svg.png",
+    "lat": 41.1,
+    "lon": -73.7,
+    "link": "https://en.wikipedia.org/wiki/CICS"
   },
   {
-    "id": 6,
-    "title": "Nixon Diplomatic Outreach to USSR",
-    "description": "In 1969, newly inaugurated President Richard Nixon began a significant diplomatic recalibration with the Soviet Union, signaling a shift toward the policy that would become known as détente. Through back-channel communications and public overtures, the Nixon administration sought to reduce Cold War tensions, initiate arms control negotiations, and open a path toward the eventual SALT I treaty signed in 1972. Nixon's approach, shaped heavily by National Security Advisor Henry Kissinger, reframed U.S.-Soviet relations as a pragmatic balance of power rather than an ideological crusade, marking a pivotal departure from the rigid confrontationalism of the early Cold War era.",
-    "date": "1969-05-22",
-    "image": "/images/event-icon.png",
-    "lat": 55.8,
-    "lon": 37.6,
-    "link": "https://en.wikipedia.org/wiki/Richard_Nixon"
+    "id": 105,
+    "title": "Football War Ceasefire",
+    "description": "A ceasefire is declared between El Salvador and Honduras after the brief but intense conflict known as the Football War, which was triggered by tensions surrounding World Cup qualifiers and deeper political issues.",
+    "date": "1969-07-18",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Mensaje_FSH.JPG/960px-Mensaje_FSH.JPG",
+    "lat": 13.7,
+    "lon": -89.2,
+    "link": "https://en.wikipedia.org/wiki/Football_War"
   },
   {
     "id": 7,
     "title": "Vietnam War – Draft Lottery",
     "description": "On December 1, 1969, the United States held its first military draft lottery since World War II, selecting birthdates at random to determine the order in which young men aged 18–26 would be called up for service in Vietnam. Broadcast live on television and radio, the lottery transfixed and horrified millions of American families. Those assigned low numbers faced near-certain induction; those with high numbers could relax. The event deepened national division over the war, fueling anti-war protests on college campuses and in cities across the country, and crystallized a generation's sense of helplessness in the face of military conscription.",
     "date": "1969-12-01",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/DraftcardRenJuan.jpg",
     "lat": 38.9,
     "lon": -77.0,
-    "link": "https://en.wikipedia.org/wiki/Vietnam_draft_lottery"
+    "link": "https://en.wikipedia.org/wiki/Vietnam_War_draft"
   },
   {
     "id": 8,
     "title": "Vietnam War – Major Guerrilla Offensive",
     "description": "Throughout 1969, North Vietnamese and Viet Cong forces continued a sustained guerrilla campaign against South Vietnamese and American troops, following the strategic blueprint established by the Tet Offensive of 1968. While the U.S. military maintained its policy of attrition — measuring success in enemy body counts — North Vietnam fought a war of endurance designed to erode American political will. By mid-1969, President Nixon had begun announcing troop withdrawals under his 'Vietnamization' policy, aiming to transfer combat responsibility to South Vietnamese forces. Despite heavy losses on both sides, the war dragged on, and domestic opposition in the U.S. continued to grow.",
     "date": "1969-10-05",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
     "lat": 16.0,
     "lon": 107.2,
     "link": "https://en.wikipedia.org/wiki/Vietnam_War"
@@ -84,27 +84,17 @@
     "title": "ARPANET Goes Online",
     "description": "On October 29, 1969, the first message was transmitted over ARPANET — the U.S. Defense Department's experimental computer network that would eventually evolve into the modern internet. The message, 'lo' (the first two letters of 'login' before the system crashed), was sent from UCLA to the Stanford Research Institute. ARPANET was designed to be a resilient, decentralized communications network capable of surviving nuclear attack by routing data through multiple nodes. Within a few years it expanded to dozens of universities and research institutions, laying the conceptual and technical foundation for the global network that would transform civilization in the following decades.",
     "date": "1969-10-29",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png",
     "lat": 34.0,
     "lon": -118.4,
     "link": "https://en.wikipedia.org/wiki/ARPANET"
-  },
-  {
-    "id": 10,
-    "title": "Stonewall Riots",
-    "description": "In the early hours of June 28, 1969, patrons of the Stonewall Inn — a gay bar in Greenwich Village, New York — fought back against a routine police raid, sparking three nights of protests and clashes that became a watershed moment for the LGBTQ+ rights movement. At a time when homosexuality was criminalized and police harassment of gay venues was common, the Stonewall uprising marked the emergence of organized, public resistance. It led directly to the formation of activist organizations and, a year later, the first Gay Pride marches in New York and Los Angeles. Stonewall is widely recognized as the catalyst for the modern LGBTQ+ civil rights movement worldwide.",
-    "date": "1969-06-28",
-    "image": "/images/event-icon.png",
-    "lat": 40.7,
-    "lon": -74.0,
-    "link": "https://en.wikipedia.org/wiki/Stonewall_riots"
   },
   {
     "id": 11,
     "title": "Woodstock Music Festival",
     "description": "From August 15–18, 1969, nearly half a million people descended on a dairy farm in Bethel, New York, for the Woodstock Music and Art Fair, one of the largest and most iconic cultural events of the 20th century. Billed as 'three days of peace and music,' Woodstock featured performances by Jimi Hendrix, Janis Joplin, The Who, Jefferson Airplane, and dozens of other major acts. Despite logistical chaos — roads jammed for miles, food and sanitation overwhelmed — the festival became a symbol of the counterculture movement and the idealism of a generation that sought an alternative to the Vietnam War era. Its cultural legacy endures in music, film, and collective memory.",
     "date": "1969-08-15",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Woodstock_poster.jpg/960px-Woodstock_poster.jpg",
     "lat": 41.7,
     "lon": -74.9,
     "link": "https://en.wikipedia.org/wiki/Woodstock"
@@ -114,27 +104,17 @@
     "title": "Greek Military Junta Continues Rule",
     "description": "By 1969, the Greek military junta — which had seized power in a coup on April 21, 1967 — had entrenched its authoritarian grip on the country. The regime, led by Colonel Georgios Papadopoulos, suspended constitutional rights, banned political parties, censored the press, and imprisoned or exiled thousands of political opponents. International condemnation grew, and Greece was expelled from the Council of Europe in December 1969 over human rights violations. The junta's suppression of civil liberties galvanized Greek intellectuals, artists, and diaspora communities in opposition. The regime finally collapsed in 1974 following its disastrous involvement in the Cyprus crisis, paving the way for a restoration of democracy.",
     "date": "1969-04-21",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d0/21april1967.png",
     "lat": 37.9,
     "lon": 23.7,
     "link": "https://en.wikipedia.org/wiki/Greek_junta"
-  },
-  {
-    "id": 13,
-    "title": "Tiananmen Square Protests Suppressed",
-    "description": "In the spring of 1989, hundreds of thousands of students, workers, and intellectuals gathered in Tiananmen Square in Beijing, calling for political reform, press freedom, and an end to corruption within the Chinese Communist Party. The protests, which lasted for nearly seven weeks, spread to cities across China and galvanized global attention. On June 3–4, the government declared martial law and deployed the People's Liberation Army with tanks and live ammunition. The crackdown resulted in hundreds to potentially thousands of deaths — the precise toll remains unknown due to strict censorship. The lone figure of 'Tank Man,' photographed blocking a column of tanks, became one of the most iconic images of the 20th century.",
-    "date": "1989-06-04",
-    "image": "/images/event-icon.png",
-    "lat": 39.9,
-    "lon": 116.4,
-    "link": "https://en.wikipedia.org/wiki/Tiananmen_Square_protests_of_1989"
   },
   {
     "id": 14,
     "title": "Berlin Wall Falls",
     "description": "On the night of November 9, 1989, East German authorities announced that citizens would be allowed to cross the Berlin Wall freely — a declaration that sparked jubilant scenes as thousands of East and West Berliners gathered at the wall and began tearing it down with hammers and their bare hands. The Wall, erected in 1961 to halt the mass flight of East Germans to the West, had stood as the defining symbol of Cold War division and totalitarianism. Its fall set off a rapid cascade: German reunification followed within a year, and across Eastern Europe, Communist regimes crumbled in quick succession. The event marked the symbolic end of the Cold War era.",
     "date": "1989-11-09",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Berlinermauer.jpg",
     "lat": 52.5,
     "lon": 13.4,
     "link": "https://en.wikipedia.org/wiki/Berlin_Wall"
@@ -144,7 +124,7 @@
     "title": "Revolutions Sweep Eastern Europe",
     "description": "Throughout 1989, a wave of popular uprisings swept through the Soviet-aligned nations of Eastern Europe with breathtaking speed. In Poland, the Solidarity-backed government took power after partially free elections in June. Hungary dismantled its border fence with Austria in May. Czechoslovakia's Velvet Revolution in November ousted its Communist government without bloodshed. Romania's was the most violent — dictator Nicolae Ceaușescu was tried by a summary court and executed on Christmas Day. Bulgaria and East Germany also underwent rapid transitions. By year's end, nearly every Communist government in the region had fallen, reshaping the geopolitical map of Europe and heralding the approaching dissolution of the Soviet Union itself.",
     "date": "1989-12-31",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg",
     "lat": 50.1,
     "lon": 14.4,
     "link": "https://en.wikipedia.org/wiki/Revolutions_of_1989"
@@ -154,7 +134,7 @@
     "title": "Exxon Valdez Oil Spill",
     "description": "On March 24, 1989, the oil tanker Exxon Valdez ran aground on Bligh Reef in Prince William Sound, Alaska, releasing approximately 11 million gallons of crude oil into one of North America's most pristine marine environments. The spill spread across 1,300 miles of coastline, killing an estimated 250,000 seabirds, 2,800 sea otters, 300 harbor seals, and vast quantities of fish. The disaster exposed serious gaps in oil-spill response preparedness and the risks of transporting oil through ecologically sensitive regions. It prompted Congress to pass the Oil Pollution Act of 1990, mandating double-hulled tankers and stronger prevention and response frameworks, and remains one of the most consequential environmental disasters in American history.",
     "date": "1989-03-24",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Exxon_Valdez_Aerial.jpg/1280px-Exxon_Valdez_Aerial.jpg",
     "lat": 60.8,
     "lon": -146.8,
     "link": "https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill"
@@ -164,7 +144,7 @@
     "title": "U.S. Invasion of Panama",
     "description": "On December 20, 1989, the United States launched Operation Just Cause — a full-scale military invasion of Panama with over 27,000 troops — with the stated goals of protecting American citizens, restoring democracy, and capturing General Manuel Noriega, who had been indicted in the U.S. on drug trafficking charges. Noriega, once a CIA asset, had become an embarrassment and obstacle to U.S. interests in the region. The operation lasted several weeks; Noriega eventually surrendered to U.S. custody after taking refuge in the Vatican's diplomatic mission in Panama City. He was extradited to the United States, tried, and imprisoned. The invasion drew criticism from Latin American nations and the United Nations for violating Panamanian sovereignty.",
     "date": "1989-12-20",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Operation_Just_Cause.png/330px-Operation_Just_Cause.png",
     "lat": 8.9,
     "lon": -79.5,
     "link": "https://en.wikipedia.org/wiki/United_States_invasion_of_Panama"
@@ -174,27 +154,27 @@
     "title": "Poland Holds Free Elections",
     "description": "On June 4, 1989 — the same day as the Tiananmen Square crackdown in China — Poland held partially free parliamentary elections, the first in the Eastern Bloc since Communist consolidation in the late 1940s. The elections were the result of the Round Table Agreements negotiated between the Communist government and the Solidarity trade union movement. Solidarity, led by Lech Wałęsa, won every freely contested seat in a landslide. By August, Tadeusz Mazowiecki became the first non-Communist prime minister in the Eastern Bloc, setting a precedent that emboldened reformers across the region. Poland's peaceful transition became a model for democratic change throughout Central and Eastern Europe.",
     "date": "1989-06-04",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Okr%C4%85g%C5%82y_St%C3%B3%C5%82_Pa%C5%82ac_Prezydencki_w_Warszawie_2019.jpg/1280px-Okr%C4%85g%C5%82y_St%C3%B3%C5%82_Pa%C5%82ac_Prezydencki_w_Warszawie_2019.jpg",
     "lat": 52.2,
     "lon": 21.0,
-    "link": "https://en.wikipedia.org/wiki/Polish_round_table_agreements"
+    "link": "https://en.wikipedia.org/wiki/Polish_Round_Table_Agreement"
   },
   {
     "id": 19,
     "title": "Hungary Opens Border with Austria",
     "description": "On August 19, 1989, Hungary formally opened its border with Austria, dismantling the iron curtain between the two countries in an event that proved to be one of the most consequential catalysts of 1989's revolutionary year. Hundreds of East Germans who had flooded into Hungary hoping to reach the West were suddenly free to cross. Within weeks, tens of thousands had made the journey. The 'Pan-European Picnic,' as the border opening was symbolically framed, punctured the Iron Curtain and demonstrated that the Soviet Union would no longer intervene militarily to preserve Communist regimes — a realization that electrified reformers across Eastern Europe and accelerated the fall of the Berlin Wall three months later.",
     "date": "1989-08-19",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Paneur_grenz%C3%BCbergang_130609.JPG",
     "lat": 47.2,
     "lon": 19.5,
-    "link": "https://en.wikipedia.org/wiki/Hungary_opening_border_with_Austria"
+    "link": "https://en.wikipedia.org/wiki/Removal_of_Hungary%27s_border_fence_with_Austria"
   },
   {
     "id": 20,
     "title": "Solidarity Legalized in Poland",
     "description": "On February 17, 1989, the Polish government agreed to legalize Solidarity, the independent trade union movement that had been banned since the declaration of martial law in December 1981. Solidarity, founded in 1980 by shipyard workers in Gdańsk and led by electrician Lech Wałęsa, had been the most powerful challenge to Communist authority in the Eastern Bloc. Its re-legalization was a concession extracted through the Round Table negotiations, and it opened the door to the partially free elections held in June 1989. The movement's survival — underground throughout the 1980s — and ultimate political triumph stood as one of history's most remarkable examples of nonviolent resistance.",
     "date": "1989-02-17",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Solidarity_%28Polish_trade_union%29_logo.svg/1920px-Solidarity_%28Polish_trade_union%29_logo.svg.png",
     "lat": 52.2,
     "lon": 21.0,
     "link": "https://en.wikipedia.org/wiki/Solidarity_(Polish_trade_union)"
@@ -204,7 +184,7 @@
     "title": "Iran–Iraq War Ends",
     "description": "The Iran–Iraq War, which had erupted in September 1980 when Iraqi forces invaded Iran, finally ended on August 20, 1988, when both sides accepted UN Security Council Resolution 598. Fighting dragged on into 1989 as final demarcation lines were negotiated. The war, one of the longest and bloodiest conventional conflicts of the 20th century, claimed between 500,000 and 1 million lives on both sides, left millions wounded, and devastated the economies of both nations. Iraq had used chemical weapons against Iranian forces and its own Kurdish civilian population during the conflict. The war settled none of the territorial disputes that had triggered it, and left both countries — and the entire Persian Gulf region — profoundly destabilized.",
     "date": "1989-08-20",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Chemical_weapon1.jpg",
     "lat": 32.0,
     "lon": 44.0,
     "link": "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War"
@@ -214,7 +194,7 @@
     "title": "Tiananmen Square Protests Begin",
     "description": "The death of reformist Communist Party leader Hu Yaobang on April 15, 1989 triggered an outpouring of grief and political energy among students in Beijing. Within days, tens of thousands had gathered in Tiananmen Square, demanding greater press freedom, an end to corruption, and democratic reforms within the party. The movement grew rapidly, spreading to dozens of Chinese cities, and included a famous hunger strike that drew international media attention and public sympathy. Soviet leader Mikhail Gorbachev's visit to Beijing in mid-May — the first Sino-Soviet summit in 30 years — coincided with the protests' peak, temporarily embarrassing Chinese leadership before the brutal crackdown on June 4.",
     "date": "1989-04-15",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Chinese_tanks_in_Beijing%2C_July_1989.png",
     "lat": 39.9,
     "lon": 116.4,
     "link": "https://en.wikipedia.org/wiki/Tiananmen_Square_protests_of_1989"
@@ -224,17 +204,17 @@
     "title": "Chile Returns to Democracy",
     "description": "On December 14, 1989, Chileans elected Patricio Aylwin as president in the first free presidential election since the 1973 military coup that had brought General Augusto Pinochet to power. Pinochet's brutal 17-year dictatorship had been marked by the torture, disappearance, and killing of thousands of political opponents. The transition had been set in motion by a 1988 plebiscite in which Chileans voted to end military rule, narrowly defeating Pinochet's bid to extend his term. Aylwin took office in March 1990, inaugurating a period of democratic consolidation and a painful process of reckoning with the human rights abuses of the preceding decades through the Rettig Commission.",
     "date": "1989-12-14",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Aylwin_Banda_%282%29.jpg",
     "lat": -33.4,
     "lon": -70.6,
-    "link": "https://en.wikipedia.org/wiki/Chilean_political_transition"
+    "link": "https://en.wikipedia.org/wiki/Chilean_transition_to_democracy"
   },
   {
     "id": 24,
     "title": "September 11 Attacks",
     "description": "On the morning of September 11, 2001, nineteen hijackers affiliated with the al-Qaeda terrorist network simultaneously seized four commercial airliners in the United States. Two planes were flown into the Twin Towers of the World Trade Center in New York City, which collapsed within hours. A third struck the Pentagon in Arlington, Virginia. A fourth, United Airlines Flight 93, crashed into a field near Shanksville, Pennsylvania, after passengers attempted to overpower the hijackers. Nearly 3,000 people were killed — the deadliest terrorist attack in history. The attacks irrevocably transformed American domestic policy, foreign policy, and global geopolitics, setting in motion wars in Afghanistan and Iraq and reshaping security and civil liberties frameworks worldwide.",
     "date": "2001-09-11",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/WTC_smoking_on_9-11.jpeg/1280px-WTC_smoking_on_9-11.jpeg",
     "lat": 40.7,
     "lon": -74.0,
     "link": "https://en.wikipedia.org/wiki/September_11_attacks"
@@ -244,7 +224,7 @@
     "title": "U.S. Invades Afghanistan",
     "description": "On October 7, 2001, the United States and allied forces launched Operation Enduring Freedom — a military campaign targeting Afghanistan's Taliban regime, which had harbored al-Qaeda and refused to surrender Osama bin Laden. Within weeks, the Taliban government was toppled and major cities fell to the Northern Alliance backed by U.S. airpower and special operations forces. However, bin Laden escaped the siege of Tora Bora in December, and the Taliban retreated to rural areas and across the Pakistani border rather than being decisively defeated. What began as a swift military operation became America's longest war, lasting until the U.S. withdrawal in August 2021 and the Taliban's return to power.",
     "date": "2001-10-07",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/1280px-U.S._Army_firefight_in_Kunar.jpg",
     "lat": 33.9,
     "lon": 67.7,
     "link": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%93present)"
@@ -254,7 +234,7 @@
     "title": "USA PATRIOT Act Passed",
     "description": "Signed into law on October 26, 2001 — just six weeks after the September 11 attacks — the USA PATRIOT Act dramatically expanded the U.S. government's surveillance and law enforcement powers in the name of counter-terrorism. The Act lowered legal barriers between intelligence and law enforcement agencies, expanded the use of roving wiretaps, permitted 'sneak and peek' searches with delayed notification, and allowed the FBI to access business records including library borrowing histories. Critics from across the political spectrum warned of serious threats to civil liberties and the erosion of Fourth Amendment protections. Many of its provisions were later found to have been abused, and it became a touchstone of post-9/11 debates about security versus freedom.",
     "date": "2001-10-26",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/960px-Great_Seal_of_the_United_States_%28obverse%29.svg.png",
     "lat": 38.9,
     "lon": -77.0,
     "link": "https://en.wikipedia.org/wiki/USA_PATRIOT_Act"
@@ -264,7 +244,7 @@
     "title": "War on Terror Declared",
     "description": "On September 20, 2001, nine days after the attacks, President George W. Bush addressed a joint session of Congress and declared a global 'War on Terror' — a fundamentally open-ended military and ideological campaign that would not end with a single battle or treaty but with the defeat of terrorist networks worldwide. Bush issued an ultimatum to the Taliban to surrender al-Qaeda leadership or share their fate, and framed the conflict in sweeping moral terms: 'You are either with us, or you are with the terrorists.' The speech authorized military force that underpinned operations in Afghanistan, Iraq, and eventually in over 80 countries, and reshaped U.S. foreign policy for the following two decades.",
     "date": "2001-09-20",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Snow_won%27t_stop_operations_121228-F-LR266-849.jpg/1280px-Snow_won%27t_stop_operations_121228-F-LR266-849.jpg",
     "lat": 38.9,
     "lon": -77.0,
     "link": "https://en.wikipedia.org/wiki/War_on_Terror"
@@ -274,7 +254,7 @@
     "title": "G8 Summit in Genoa – Mass Protests",
     "description": "The 27th G8 Summit, held in Genoa, Italy on July 20–22, 2001, was met by one of the largest anti-globalization protests in history, drawing an estimated 200,000 demonstrators from around the world. Protests turned violent when a small faction clashed with police; 23-year-old Carlo Giuliani was shot and killed by a carabinieri officer — the first protester killed at a G8 summit. Police subsequently conducted a notorious raid on the Diaz school building used as a media center, beating and detaining dozens of journalists and activists in scenes later condemned by European courts as torture. The Genoa protests crystallized the global justice movement's critique of neoliberal economic governance and international inequality.",
     "date": "2001-07-20",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Vladimir_Putin_22_July_2001-1.jpg",
     "lat": 44.4,
     "lon": 8.9,
     "link": "https://en.wikipedia.org/wiki/27th_G8_summit"
@@ -284,7 +264,7 @@
     "title": "East Timor Gains Independence",
     "description": "On May 20, 2002, East Timor (Timor-Leste) formally became the world's newest nation, following a long and brutal struggle for independence from Indonesia. Indonesia had invaded the former Portuguese colony in 1975 and occupied it for 24 years, during which an estimated 100,000–180,000 East Timorese died from violence, famine, and disease. A UN-supervised referendum in August 1999 had overwhelmingly backed independence, triggering a devastating wave of violence by Indonesian-backed militias before an international peacekeeping force stabilized the territory. The formation of a functioning state proceeded through UN administration from 1999 to 2002, making East Timor a test case for international nation-building at the start of the 21st century.",
     "date": "2001-08-30",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1920px-Flag_of_East_Timor.svg.png",
     "lat": -8.8,
     "lon": 125.6,
     "link": "https://en.wikipedia.org/wiki/East_Timor"
@@ -294,7 +274,7 @@
     "title": "Wikipedia Founded",
     "description": "On January 15, 2001, Jimmy Wales and Larry Sanger launched Wikipedia — a free, collaboratively edited, internet-based encyclopedia that would grow to become one of the most visited websites in history. Starting with a handful of articles in English, it expanded to millions of entries in hundreds of languages within a few years, built entirely by volunteer contributors. Wikipedia fundamentally democratized access to knowledge, making a vast and freely available reference work available to anyone with an internet connection. It also introduced new questions about accuracy, editorial authority, and the nature of knowledge in the digital age. By the mid-2000s it had become the default first stop for information for hundreds of millions of people worldwide.",
     "date": "2001-01-15",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg",
     "lat": 37.4,
     "lon": -122.1,
     "link": "https://en.wikipedia.org/wiki/Wikipedia"
@@ -304,7 +284,7 @@
     "title": "Argentina Economic Crisis Peaks",
     "description": "In December 2001, Argentina descended into its worst economic and political crisis in decades. A severe recession, runaway public debt, an IMF-imposed austerity program, and the government's decision to freeze bank accounts triggered mass social unrest. Riots erupted across Buenos Aires and other cities; looting spread as unemployment topped 20 percent. President Fernando de la Rúa resigned and fled the Government House by helicopter on December 20. Argentina cycled through five presidents in two weeks. In early 2002, the country defaulted on $100 billion in sovereign debt — the largest sovereign default in history at the time — and abandoned the peso's peg to the U.S. dollar. The crisis became a defining case study in the dangers of currency pegs, capital liberalization, and IMF conditionality.",
     "date": "2001-12-20",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Sol_de_Mayo-Bandera_de_Argentina.svg",
     "lat": -34.6,
     "lon": -58.4,
     "link": "https://en.wikipedia.org/wiki/Economic_history_of_Argentina"
@@ -314,19 +294,9 @@
     "title": "Anthrax Letter Attacks",
     "description": "In the weeks following September 11, 2001, letters containing anthrax spores were mailed to several news media offices and to two Democratic U.S. senators, killing five people and infecting 17 others. The attacks — the most significant biological terrorism event in U.S. history — seized a nation already in shock and dramatically heightened fears of bioterrorism. They disrupted Congress, contaminated multiple government buildings, and forced thousands to take preventive antibiotics. The FBI investigation, known as Amerithrax, became one of the most complex in the bureau's history; in 2008 the bureau concluded that the perpetrator was Bruce E. Ivins, a government biodefense researcher who died by suicide before charges were filed, leaving the case officially unsettled in the public mind.",
     "date": "2001-10-04",
-    "image": "/images/event-icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Anthrax_letter_sent_to_Senator_Leahy.jpg/1920px-Anthrax_letter_sent_to_Senator_Leahy.jpg",
     "lat": 38.9,
     "lon": -77.0,
     "link": "https://en.wikipedia.org/wiki/2001_anthrax_attacks"
-  },
-  {
-    "id": 33,
-    "title": "iPod and iTunes Launch",
-    "description": "On October 23, 2001, Apple CEO Steve Jobs unveiled the original iPod — a portable digital music player capable of holding 1,000 songs — with the now-iconic tagline '1,000 songs in your pocket.' The device, paired with the iTunes software released earlier that year for Mac, was sleek, intuitive, and offered a user experience far superior to existing MP3 players. The iPod reinvigorated Apple financially and set the stage for the iTunes Music Store in 2003, which transformed the music industry by legitimizing digital music sales. More broadly, the iPod established Apple's identity as a consumer electronics company and laid the conceptual groundwork for the iPhone, announced just six years later.",
-    "date": "2001-10-23",
-    "image": "/images/event-icon.png",
-    "lat": 37.3,
-    "lon": -122.0,
-    "link": "https://en.wikipedia.org/wiki/iPod"
   }
 ]

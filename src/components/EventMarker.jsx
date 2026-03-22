@@ -50,7 +50,7 @@ const EventMarker = ({ lat, lon, onClick }) => {
       {/* Outer pulsing glow ring */}
       <mesh ref={ringRef}>
         <ringGeometry args={[0.13, 0.18, 32]} />
-        <meshBasicMaterial color="#5c14bb" transparent opacity={0.5} side={THREE.DoubleSide} />
+        <meshBasicMaterial color="#fd9e10" transparent opacity={0.5} side={THREE.DoubleSide} />
       </mesh>
 
       {/* Mid ring border */}
@@ -62,7 +62,7 @@ const EventMarker = ({ lat, lon, onClick }) => {
       {/* Core dot — bright orange/amber */}
       <mesh>
         <circleGeometry args={[0.1, 32]} />
-        <meshBasicMaterial color={hovered ? "#5c14bb" : "#6e28c9"} side={THREE.DoubleSide} />
+        <meshBasicMaterial color={hovered ? "#fd9e10" : "#c57f16"} side={THREE.DoubleSide} />
       </mesh>
 
       {/* Center dot for depth */}

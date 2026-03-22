@@ -5,6 +5,7 @@ import { GlobeProvider } from "./context/GlobeContext";
 import { useGlobe } from "./context/GlobeContext";
 import './App.css';
 import Menu from "./components/Menu";
+import InfoBox from "./components/InfoBox";
 
 const AppInner = () => {
   const { selectedMonth, setSelectedMonth, selectedYear, setSelectedYear } = useGlobe();
@@ -21,6 +22,7 @@ const AppInner = () => {
         setSelectedYear={setSelectedYear}
         isModalOpen={isModalOpen}
       />
+      <InfoBox/>
     </div>
   );
 };

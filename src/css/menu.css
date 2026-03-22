@@ -43,7 +43,19 @@
   opacity: 0;
   transform: translateY(-10px);
   transition: 0.2s;
+  
 }
+/* .menu-button::before,
+.menu-options::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  background: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 100% 3px;
+  pointer-events: none;
+  z-index: 1;
+} */
 
 .menu-options.open {
   opacity: 1;
@@ -85,11 +97,7 @@
   border-color: rgba(120, 170, 255, 0.8);
   box-shadow: 0 0 6px rgba(120, 170, 255, 0.6);
 }
- 
-
- 
-
- 
+  
 /* ===== MONTH NAV ===== */
 .year-nav,
 .month-nav {
@@ -131,6 +139,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .nav-btn:hover {
