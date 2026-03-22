@@ -1,0 +1,24 @@
+:root {
+  --bg-space: rgba(5, 8, 25, 0.75);
+  --bg-glass: rgba(20, 30, 80, 0.25);
+
+  --neon-blue: #4cc9f0;
+  --neon-purple: #9d4edd;
+
+  --text: #e6f1ff;
+  --text-dim: #9aa4c7;
+
+  --border-glow: rgba(76, 201, 240, 0.3);
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ 
+body {
+  position: relative;
+  overflow: hidden;
+  overflow-anchor:auto;
+}

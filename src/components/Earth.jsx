@@ -3,22 +3,25 @@ import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 import { useGlobe } from "../context/GlobeContext";
 import earthTexture from "../assets/earth-texture.jpg";
- import CountryBorders from "./CountryBorder";
+import CountryBorders from "./CountryBorder";
 import GlowEffect from "./GlowEffect";
 import EventMarker from "./EventMarker";
-import events from "./historicalEvents";
+import events from "../data/historicalEvents.json";
 
 const Earth = () => {
   const earthRef = useRef();
-  const { selectedEvent, setSelectedEvent, isSpinning, setIsSpinning } = useGlobe();
+  const {
+    selectedEvent, setSelectedEvent,
+    isSpinning, setIsSpinning,
+    selectedMonth, selectedYear,
+  } = useGlobe();
+
   const [earthMap, setEarthMap] = useState(null);
   const [hoveredCountry, setHoveredCountry] = useState(null);
 
   useEffect(() => {
     const textureLoader = new THREE.TextureLoader();
-    textureLoader.load(earthTexture, (texture) => {
-      setEarthMap(texture);
-    });
+    textureLoader.load(earthTexture, (texture) => setEarthMap(texture));
   }, []);
 
   useFrame(() => {
@@ -31,6 +34,12 @@ const Earth = () => {
     setIsSpinning(false);
     setSelectedEvent(event);
   };
+
+  // Filter events to only those matching the selected month and year
+  const filteredEvents = events.filter((event) => {
+    const d = new Date(event.date);
+    return d.getMonth() === selectedMonth && d.getFullYear() === selectedYear;
+  });
 
   return (
     <group ref={earthRef}>
@@ -46,8 +55,15 @@ const Earth = () => {
         <meshStandardMaterial color="#4a93c7" transparent opacity={0.2} side={THREE.BackSide} />
       </mesh>
       <CountryBorders />
-      {events.map((event, index) => (
-        <EventMarker key={index} lat={event.lat} lon={event.lon} description={event.description} date={event.date} onClick={() => handleEventClick(event)} />
+      {filteredEvents.map((event, index) => (
+        <EventMarker
+          key={index}
+          lat={event.lat}
+          lon={event.lon}
+          description={event.description}
+          date={event.date}
+          onClick={() => handleEventClick(event)}
+        />
       ))}
     </group>
   );

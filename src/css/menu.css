@@ -1,0 +1,160 @@
+/* ===== MENU CONTAINER ===== */
+.menu-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+.menu-container.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* ===== MENU BUTTON ===== */
+.menu-button {
+  background: rgba(10, 15, 40, 0.8);
+  color: #e6f1ff;
+  border: 1px solid rgba(120, 170, 255, 0.4);
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: 0.2s;
+}
+
+.menu-button:hover {
+  box-shadow: 0 0 10px rgba(120, 170, 255, 0.6);
+}
+
+/* ===== MENU OPTIONS ===== */
+.menu-options {
+  background: rgba(10, 15, 40, 0.95);
+  border: 1px solid rgba(120, 170, 255, 0.2);
+  border-radius: 14px;
+  padding: 14px;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: 0.2s;
+}
+
+.menu-options.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu-options.closed {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ===== MENU ITEMS ===== */
+.menu-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item label {
+  color: #9aa4c7;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+/* ===== INPUTS ===== */
+.menu-item input,
+.menu-item select {
+  appearance: none;
+  width: 100%;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #e6f1ff;
+  border: 1px solid rgba(120, 170, 255, 0.3);
+  border-radius: 8px;
+  outline: none;
+}
+
+.menu-item input:focus,
+.menu-item select:focus {
+  border-color: rgba(120, 170, 255, 0.8);
+  box-shadow: 0 0 6px rgba(120, 170, 255, 0.6);
+}
+ 
+
+ 
+
+ 
+/* ===== MONTH NAV ===== */
+.year-nav,
+.month-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(120, 170, 255, 0.2);
+  border-radius: 10px;
+  padding: 6px;
+  margin: 8px 0;
+}
+
+/* ===== YEAR NAV ===== */
+ 
+
+.year-nav input {
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  border: none;
+  color: #e6f1ff;
+ 
+  font-size: 13px;
+  color: #9fb3ff;
+  outline: none;
+}
+
+/* ===== SHARED NAV BUTTONS (month + year) ===== */
+.nav-btn {
+  background: transparent;
+  border: none;
+  color: #e6f1ff;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn:hover {
+  background: rgba(120, 170, 255, 0.2);
+}
+
+/* ===== NAV DISPLAY TEXT ===== */
+.month-display,
+.year-display {
+  font-size: 13px;
+  color: #9fb3ff;
+}
+
+.year-nav input {
+  flex: 1;                    /* match month-display */
+  text-align: center;
+
+  background: transparent;
+  border: none;
+  outline: none;
+
+  font-size: 13px;
+  color: #9fb3ff;
+
+  height: 100%;               /* match container height */
+  padding: 0;                 /* remove default spacing */
+}
