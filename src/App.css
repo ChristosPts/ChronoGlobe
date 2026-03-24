@@ -6,7 +6,6 @@
 }
 
 .info-box {
- 
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -20,7 +19,6 @@
   gap: 12px;
   color: white;
 }
- 
  
 .info-box-heading {
   font-size: 0.7rem;
@@ -77,4 +75,68 @@
   line-height: 1.5;
   border-top: 1px solid rgba(255,255,255,0.06);
   padding-top: 0.75rem;
+}
+
+.info-toggle-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+ 
+  background: rgba(10, 15, 40, 0.8);
+  color: #e6f1ff;
+  border: 1px solid rgba(120, 170, 255, 0.4);
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: 0.2s;
+}
+
+.info-toggle-button:hover {
+  background: rgba(20, 25, 60, 0.95);
+}
+
+.info-box {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  /* keep your existing styles */
+}
+
+.info-box-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  background: rgba(255,255,255,0.08);
+  border: none;
+  color: white;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.info-box-close:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+@media (max-width: 996px) {
+  .info-box,
+  .info-toggle-button {
+    right: auto;
+    left: 20px;
+    bottom: 20px;
+  }
+}
+
+ @media (max-width: 576px) {
+  .info-box,
+  .info-toggle-button {
+    right:20px;
+    left: 20px;
+    bottom: 20px;
+  }
 }

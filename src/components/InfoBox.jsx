@@ -36,25 +36,40 @@ const controls = [
 ]
 
 function InfoBox() {
+  const [isOpen, setIsOpen] = useState(true)
 
   return (
-    <div className="info-box">
-      <p className="info-box-heading">HOW TO EXPLORE</p>
-      <div className="info-box-controls">
-        {controls.map((c) => (
-          <div className="info-box-row" key={c.action}>
-            <span className="info-box-icon">{c.icon}</span>
-            <div className="info-box-text">
-              <span className="info-box-action">{c.action}</span>
-              <span className="info-box-desc">{c.description}</span>
-            </div>
+    <>
+      {!isOpen && (
+        <button className="info-toggle-button"onClick={() => setIsOpen(true)}>  
+          Navigation
+        </button>
+      )}
+
+      {isOpen && ( 
+        <div className="info-box">
+          <button className="info-box-close" onClick={() => setIsOpen(false)}>
+            ✕
+          </button>
+
+          <p className="info-box-heading">HOW TO EXPLORE</p>
+          <div className="info-box-controls">
+            {controls.map((c) => (
+              <div className="info-box-row" key={c.action}>
+                <span className="info-box-icon">{c.icon}</span>
+                <div className="info-box-text">
+                  <span className="info-box-action">{c.action}</span>
+                  <span className="info-box-desc">{c.description}</span>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-      <p className="info-box-footer">
-        Navigate to a month &amp; year to reveal historical events
-      </p>
-    </div>
+          <p className="info-box-footer">
+            Navigate to a month &amp; year to reveal historical events
+          </p>
+        </div>
+       )}
+    </>
   )
 }
 
